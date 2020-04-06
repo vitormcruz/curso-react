@@ -6,7 +6,7 @@ const root = document.getElementById("root");
 
 ReactDom.render(
     <div><h1>Olá React</h1>
-        <PrimeiroComponente/>
-        <PrimeiroComponente/>
+        <PrimeiroComponente valor="Bom dia!" aBcD={2**8}/>
+        <PrimeiroComponente valor="Boa Noite!"/>
     </div>,
     root);

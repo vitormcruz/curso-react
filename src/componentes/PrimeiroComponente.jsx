@@ -1,3 +1,7 @@
 import React from "react";
 
-export default () => <h1>Primeiro Componente (Arroy)</h1>
+export default (props) =>
+        <div>
+            <h1>{props.valor}</h1>
+            <h2>{props.aBcD === undefined ? 'aBcD não definido' : props.aBcD}</h2>
+        </div>
