@@ -2,6 +2,7 @@ import ReactDom from 'react-dom';
 import React from "react";
 import PrimeiroComponente from './componentes/PrimeiroComponente';
 import {CompA, CompB} from './componentes/DoisComponentes';
+import Multi from './componentes/MultiElementos';
 
 const root = document.getElementById("root");
 
@@ -11,5 +12,7 @@ ReactDom.render(
         <PrimeiroComponente valor="Boa Noite!"/>
         <CompA valor="Olá eu sou A"/>
         <CompB valor="B na área"/>
+        <Multi/>
+
     </div>,
     root);
