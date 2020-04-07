@@ -1,7 +1,9 @@
 import React from "react";
+import {filhosComProp} from "../utils";
+
 
 export default props =>
     <div>
         <h1>Família</h1>
-        {props.children}
+        {filhosComProp(props)}
     </div>

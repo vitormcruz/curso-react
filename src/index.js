@@ -19,10 +19,10 @@ ReactDom.render(
         <FamiliaSilva/>
         <br/>
 
-        <Familia>
-                <Membro nome="Vitor" sobrenome="Medina"/>
-                <Membro nome="Sofia" sobrenome="Medina"/>
-                <Membro nome="Heloísa" sobrenome="Medina"/>
+        <Familia sobrenome="Medina">
+                <Membro nome="Vitor"/>
+                <Membro nome="Sofia"/>
+                <Membro nome="Heloísa"/>
         </Familia>
 
     </div>,
