@@ -3,6 +3,7 @@ import React from "react";
 import PrimeiroComponente from './componentes/PrimeiroComponente';
 import {CompA, CompB} from './componentes/DoisComponentes';
 import Multi from './componentes/MultiElementos';
+import FamiliaSilva from "./componentes/FamiliaSilva";
 
 const root = document.getElementById("root");
 
@@ -13,6 +14,7 @@ ReactDom.render(
         <CompA valor="Olá eu sou A"/>
         <CompB valor="B na área"/>
         <Multi/>
+        <FamiliaSilva/>
 
     </div>,
     root);
