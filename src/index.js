@@ -4,6 +4,8 @@ import PrimeiroComponente from './componentes/PrimeiroComponente';
 import {CompA, CompB} from './componentes/DoisComponentes';
 import Multi from './componentes/MultiElementos';
 import FamiliaSilva from "./componentes/FamiliaSilva";
+import Familia from "./componentes/Familia"
+import Membro from "./componentes/Membro";
 
 const root = document.getElementById("root");
 
@@ -15,6 +17,13 @@ ReactDom.render(
         <CompB valor="B na área"/>
         <Multi/>
         <FamiliaSilva/>
+        <br/>
+
+        <Familia>
+                <Membro nome="Vitor" sobrenome="Medina"/>
+                <Membro nome="Sofia" sobrenome="Medina"/>
+                <Membro nome="Heloísa" sobrenome="Medina"/>
+        </Familia>
 
     </div>,
     root);
