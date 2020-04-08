@@ -6,6 +6,7 @@ import Multi from './componentes/MultiElementos';
 import FamiliaSilva from "./componentes/FamiliaSilva";
 import Familia from "./componentes/Familia"
 import Membro from "./componentes/Membro";
+import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
 
 const root = document.getElementById("root");
 
@@ -24,6 +25,8 @@ ReactDom.render(
                 <Membro nome="Sofia"/>
                 <Membro nome="Heloísa"/>
         </Familia>
+
+        <ComponenteComFuncao/>
 
     </div>,
     root);
