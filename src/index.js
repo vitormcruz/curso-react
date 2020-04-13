@@ -10,6 +10,7 @@ import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
 import Pai from "./componentes/Pai";
 import ComponenteClasse from "./componentes/ComponenteClasse";
 import Contador from "./componentes/Contador";
+import Hook from "./componentes/Hook";
 
 const root = document.getElementById("root");
 
@@ -36,6 +37,8 @@ ReactDom.render(
         <ComponenteClasse valor="Sou um componente de Classe"/>
 
         <Contador numero={0} />
+
+        <Hook/>
 
     </div>,
     root);
