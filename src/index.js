@@ -7,6 +7,7 @@ import FamiliaSilva from "./componentes/FamiliaSilva";
 import Familia from "./componentes/Familia"
 import Membro from "./componentes/Membro";
 import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
+import Pai from "./componentes/Pai";
 
 const root = document.getElementById("root");
 
@@ -27,6 +28,8 @@ ReactDom.render(
         </Familia>
 
         <ComponenteComFuncao/>
+
+        <Pai/>
 
     </div>,
     root);
