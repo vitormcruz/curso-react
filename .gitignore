@@ -2,6 +2,7 @@
 
 # dependencies
 /exercicios-react/node_modules
+/calculadora/node_modules
 
 /.pnp
 .pnp.js
